@@ -15,6 +15,9 @@
   	font:white;
 
 }
+.navbar a{
+	color:white;
+}
 
 .paragraph-format  {
 	background-color: tomato;
