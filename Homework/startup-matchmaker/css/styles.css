@@ -1,0 +1,162 @@
+/*// FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;*/
+body, h1, h2, h3, p, h4, h5, h6 {
+	font-family: 'Source Sans Pro';
+	margin:0;
+}
+
+#wrapper {
+	max-width:100%;
+}
+#header{
+	background-color: black;
+	border-bottom: 10px solid yellow;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#nav a {
+	font-family:Oswald;
+	display: inline;
+	text-align:right;
+	width:50%;
+	margin:20px;
+	font-size: 24px;
+	color: white;
+	padding: 10px 0;
+
+}
+#header #nav a:hover {
+	color: white;
+	background: #900;
+}
+#header h1 {
+	display: inline;
+	color:yellow;
+	padding-left:20px;
+	font:40px;
+	
+}
+#header #nav {
+	display:inline;
+	float:right;
+	width:60%;
+	margin: 0;
+	padding: 0;
+}
+#headertwo{
+	clear:both;
+	height:50px;
+	background-color:#C6C6C6;
+	font-family:'Merriweather';
+}
+#headertwo h2{
+	font-family:Merriweather;
+	background-color:(198,198,198);
+	text-align: center;
+	padding: 15px;
+}
+.underline {
+	border-bottom:2px solid yellow;
+
+}
+.taste{
+	text-decoration:line-through;
+	color:gray;
+}
+#main{
+	background:url(../img/coworking.jpg);
+	overflow:auto;
+	padding:40px;
+	background-color: gray;
+
+}
+#match{
+	width:400px;
+	background-color: rgba(235,229,229,.5);
+	float:right;
+	padding:30px;
+}
+
+.bottom{
+	width:100%;
+	margin-top:10px;
+	padding:10px;
+	padding-bottom:30px;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:20px;
+	overflow:hidden;
+	/*background-color:rgba(235,229,229,.5);*/
+}
+
+
+.footer{
+	width:100%;
+	background-color:black;
+	color:white;
+	padding-bottom:20px;
+	padding-top:20px;
+	padding-left:20px;
+}
+.clear{
+	clear:both;
+}
+.button{
+	Width:400px;
+	Font:30px bold black;
+	border-radius:10px;
+	font-family:oswald;
+
+}
+#yellow{
+	background-color:yellow;
+}
+#profile{
+	float:left;
+	margin-right:20px;
+	width:30%;
+	padding-bottom:20px;
+	border-right:1px solid #ccc;
+	border-bottom:20px;
+
+	/*background-color: rgba(235,229,229,.5);*/
+}
+
+#developer{
+	float:left;
+	margin-right: 20px;
+	width:30%;
+	border-right:1px solid #ccc;
+	border-bottom:20px;
+	padding-bottom:20px;
+	/*background-color:rgba(235,229,229,.5);*/
+
+}
+#designer{
+	float:right;
+	width:30%;
+	/*background-color:rgba(235,229,229,.5);*/
+	margin-right:30px;
+	padding-right:20px;
+	padding-bottom:20px;
+	border-bottom:20px;
+
+}
+h3{
+	font:40px bold;
+	color:black;
+
+}
+h4 {
+	font-size: 36px;
+	font-weight: normal;
+	color: black;
+	padding: 0;
+	font:bold;
+}
+
+
