@@ -1,0 +1,435 @@
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body, h1, h2, h3, h4, h5, h6, p, li, ul, ol {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	cursor: default;
+	margin: 0;
+}
+
+.wrapper {
+	max-width: 1280px;
+	margin: auto;
+
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 1;
+	color: #DEDEDE;
+    font-family: Helevtica, sans-serif;
+    font-weight: normal;
+    line-height: 1.625;
+    font-weight:bold;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Merriweather', serif;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+h4{
+	text-align:center;
+	font-size:1.5em;
+	font-weight: bold;
+}
+#contact{
+	text-align:center;
+	background-color:gray;
+	font-weight:bold;
+}
+@media only screen and (max-width: 1500px){
+	#page-header nav #innernav a{
+		font-size: 22px;
+		padding:.1em;
+	}
+	#page-header {
+	background: #777;
+	color: white;
+	overflow: auto;
+	border-bottom: 4px solid black;
+	padding: 0 3%;
+}
+
+	#page-header a {
+	color: inherit;
+	text-decoration: none;
+}
+
+	#page-header h1 {
+	text-align:center;
+	font-family: 'Merriweather', serif;
+	font-size: 2em;
+	margin: 20px 0 0 0;
+}
+	#page-header h2{
+	float:left;
+	font-size:1.5em;
+
+}
+	#content{
+	position:relative;
+	
+    font-size: 1.8em;
+    font-weight: bold;
+    float: left;
+    width: 45%;
+
+}
+	#content img{
+	height: 40px;
+	width: 40px;
+	float: left;
+	margin: 10px 15px 0 0;
+}
+#innernav {
+	margin-top: 10px;
+	text-align:center;
+}
+
+#innernav a {
+	display: inline-block;
+	color: green;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 18px;
+	text-align:center;
+	float: right;
+}
+#innernav a:hover {
+	background:white;
+	}
+#hamburger{
+	display:none;
+}
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 880px){
+	body{
+		font-size:16px;
+	}
+	#page-header h1{
+		font-size: 1.5em;
+		margin-bottom:.75em;
+	}
+	#page-header nav{
+		width:100%;
+	}
+	#page-header nav a#hamburger{
+		display:block;
+		text-align:right;
+		width:100%;
+		right:0; 
+		top:0;
+		position:absolute;
+	}
+	#page-header nav #innernav{
+		position:absolute;
+		width:75%;
+		background-color:gray;
+		
+	}
+	#page-header nav #innernav a{
+		text-align:center;
+		width:auto;
+		padding:1.5em;
+		border-bottom:solid 1px black;
+		border-right:none;
+		float:none;
+		display:none;
+
+	}
+	#page-header nav #innernav Strong{
+		text-transform: capitalize;
+		font-family: "Source Sans Pro";
+	}
+	#page-header nav:hover #innernav a{
+		display:block;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	body{
+		font-size:14px;
+	}
+
+}
+
+
+
+
+
+
+
+
+form{
+	padding-top: 5px;
+	text-align:center;
+	
+}
+select{
+	width: 45%;
+	padding: 10px 12px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius:2px;
+
+}
+
+input[type=text]{
+	width: 45%;
+	padding: 10px 12px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius:2px;
+
+}
+input[type=number]{
+	width:150px;
+	padding:10px 12px;
+	border:1px solid black;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+input[type=tell]{
+	width:150px;
+	padding:10px 12px;
+	border:1px solid black;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+input[type=date]{
+	width:150px;
+	padding:10px 12px;
+	border:1px solid black;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+input[type=submit]{
+	width:100px;
+	margin-top:10px;
+	padding:10px 12px;
+	border:1px solid black;
+	box-sizing: border-box;
+	border-radius: 2
+}
+
+#type{
+	text-align:center;
+	font-size:30px;
+}
+#quote{
+	float:right;
+	font-size:20px;
+}
+p {
+	margin: 0 0 1.5em 0;
+}
+
+.button {
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background:white;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 1px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+	border-radius: 1px;
+}
+
+/*#page-header {
+	background: #777;
+	color: white;
+	overflow: auto;
+	border-bottom: 4px solid black;
+	padding: 0 3%;
+}
+
+#page-header a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#page-header h1 {
+	text-align:center;
+	font-family: 'Merriweather', serif;
+	font-size: 2em;
+	margin: 20px 0 0 0;
+}
+#page-header h2{
+	float:left;
+	font-size:1.5em;
+
+}
+
+#page-header nav {
+	text-align:center;
+	font-color:green;
+	text-align:right;
+
+}
+
+
+#page-header nav li {
+	float: left;
+	font-color:black;
+}
+
+#page-header nav li a:hover {
+	color: blue;
+
+}
+
+#page-header nav li.active a {
+	background: #666;
+	font-color:orange;
+
+}
+
+#page-header nav strong {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-color:pink;
+}
+
+
+#large-nav {
+	margin-top: 10px;
+	text-align:center;
+}
+
+#large-nav a {
+	display: inline-block;
+	color: green;
+	text-decoration: none;
+	font-size: 24px;
+	margin-left: 18px;
+	text-align:center;
+	float: right;
+}
+#large-nav a:hover {
+			background:white;
+	}
+
+#burger, #small-nav{
+	display:none;
+}
+
+#small-nav a {
+	display:block;
+	text-decoration: none;
+	background: black;
+	color:white;
+	padding:10px;
+	background-attachment: gray;
+
+	}
+#small-nav a:hover {
+	background:pink;
+	}
+#burger{
+	display:none;
+	float:right;
+	margin-top: 5px;
+	cursor: pointer;
+
+	}
+	*/
+#main{
+   	width: 100%;
+    height: 500px;
+   	background-image: url("../images/cater1.img.jpg");
+   	background-size: cover;
+    border: 4px solid gray;
+}
+.info {
+	overflow: hidden;
+	padding: 2% 0;
+	background: #777;
+	width:100%;
+	height:20%;
+}
+
+.getinfo {
+	float: left;
+	width: 33.3333%;
+	padding: 2% 3%;
+	box-sizing: border-box;
+	border-right: 1px solid rgb(200,200,200);
+}
+
+/*.getinfo:last-child {
+	border: none;
+}*/
+
+.getinfo .button {
+	background: #C6C6C6;
+}
+.number-input {
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background:white;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 1px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+	border-radius: 1px;
+}
+
+
+
+
+
+#chef{
+	float:right;
+	width:40%
+	height:100px;
+	background-image:url("../images/images.jpg");
+	
+}
+
+#content{
+	position:relative;
+	
+    font-size: 1.8em;
+    font-weight: bold;
+    float: left;
+    width: 45%;
+
+}
+
+#content img{
+	height: 40px;
+	width: 40px;
+	float: left;
+	margin: 10px 15px 0 0;
+}
+

@@ -1,0 +1,178 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	cursor: default;
+}
+
+.wrapper {
+	max-width: 1280px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Merriweather', serif;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+.button {
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background: yellow;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 12px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+	border-radius: 5px;
+}
+
+#page-header {
+	background: black;
+	color: white;
+	overflow: hidden;
+	border-bottom: 4px solid yellow;
+	padding: 0 3%;
+}
+
+#page-header a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#page-header h1 {
+	float: left;
+	color: yellow;
+	font-family: 'Merriweather', serif;
+	font-size: 1.5em;
+	margin: 20px 0 0 0;
+}
+
+#page-header nav {
+	float: right;
+}
+
+#page-header nav li {
+	float: left;
+}
+
+#page-header nav li a:hover {
+	color: yellow;
+}
+
+#page-header nav li.active a {
+	background: #666;
+}
+
+#page-header nav strong {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+
+.info {
+	background:#EEE;
+	overflow: hidden;
+	padding:2% 0;
+
+}
+.getinfo{
+	float:left;
+	width: 33.33%;
+	padding: 3% 3%;
+	box-sizing:border-box;
+	border-right:1px solid gray;
+	font:orange;
+}
+
+.getinfo:last-child{
+	border:none;
+}
+.getinfo.button{
+	background: blue;
+}
+
+#large-nav {
+	margin-top: 10px;
+	float:right;
+}
+
+#large-nav a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 18px;
+}
+
+#burger, #small-nav{
+	display:none;
+}
+@media(max-width: 880px){
+	#large-nav {
+		display:none;
+	}
+	
+
+	#small-nav a {
+		display:block;
+		text-decoration: none;
+		background: black;
+		color:white;
+		padding:10px;
+		background-attachment: gray;
+
+	}
+	#small-nav a:hover {
+			background:pink;
+	}
+	#burger{
+		display:block;
+		float:right;
+		margin-top: 5px;
+		cursor: pointer;
+	}
+
+input {
+	width: 200px;
+	font-family: monospace;
+	font-size: 20px;
+	margin: 20px 0;
+	border: 1px solid #9CE6C1;
+	box-shadow: none;
+	padding: 10px;
+	text-align:center;
+}
+
+#quote {
+	width: 200px;
+	font-family: monospace;
+	font-size: 20px;
+	margin: 20px 0;
+	border: 1px solid #9CE6C1;
+	box-shadow: none;
+	padding: 10px;
+}
+.ribbon {
+	height: 40px;
+	width: 40px;
+}
+
