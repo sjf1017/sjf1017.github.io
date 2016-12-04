@@ -26,28 +26,20 @@ $(document).ready(function () {
 
 
 	carouselContainer.carousel({
-  	 interval: slideInterval,
-  	 cycle: true,
+  	 interval: slideInterval, 
+  	  cycle: true,
   	 //Pauses the carousel from going through the next slide when the mouse pointer enters the carousel
   	 pause: "hover"
 	})
 	//occurs when carousel is going to slide from one item to another
 	.on('slid.bs.carousel', function() {
      toggleCaption();
-});
+
+	});
 
 
 	
-	// $(".carousel-indicators").click(function(){
-	// 	$(".carousel").carousel('prev');
-	// })
-	// $(".left").click(function(){
-	// 	$(".carousel").carousel('prev');
-	// 	})
-	// $(".right").click(function(){
-	// 	$(".carousel").carousel('next');
-	// 	})
-
+	
 	
 
 
