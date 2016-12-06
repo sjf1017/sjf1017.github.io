@@ -4,21 +4,64 @@
 </head>
 <body>
 
-	<div class="container">
+<div class="container-fluid">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+ 	 <!-- Indicators -->
+ 	  <ol class="carousel-indicators">
+  	 	 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    	 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+   	 	 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    	 <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  	 </ol>
 
-		<h1>My Form</h1>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active gray">
+     	<img class="image" src="images/dinnerparty10.jpg" alt="...">
+      	<div class="carousel-caption">
+      		<h3>Contact Us:</h3>
+     	 	<p>212-347-8989 or email Lucas@yourtable.com</p>
+      	</div>
+    </div>
+    <div class="item">
+     	 <img class="image" src="images/dinnerparty11.jpg" alt="...">
+     	 	<div class="carousel-caption">
+     	 		<h3 data-animation="animated bounceInLeft">Contact Us</h3>
+     	 		<h3 data-animation="animated bounceInRight">
+              212-347-8989 or email Lucas@yourtable.com<
+            </h3>
+     		 </div>
+    </div>
+     <div class="item">
+     	 <img class="image" src="images/dinnerparty12.jpg" alt="...">
+     	 <div class="carousel-caption">
+     	 <h3 class="icon-container" data-animation="animated zoomInLeft">
+              <span class="glyphicon glyphicon-glass"></span></h3>
+            <h3 data-animation="animated flipInX">
+              We Currently Serve NYC, Westchester and Long Island</h3>
+            <button class="btn btn-primary btn-lg" data-animation="animated lightSpeedIn">Button</button>
+          </div>
+     	 		
+    </div>
+     <!-- <div class="item">
+     	 <img class="image" src="images/dinnerparty5.jpg" alt="...">
+     	 <div class="carousel-caption"></div>
+    </div> -->
+   </div>
 
-		<form id="myForm">
-			<input type="text" id="name-input" placeholder="Enter Name">
-			<input type="submit" value="Click Me!">
-		</form>
+  <!-- Controls -->
+ 	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  	 	 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+   		 <span class="sr-only">Previous</span>
+ 	</a>
+ 	 <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+ 	 	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  	   	<span class="sr-only">Next</span>
+ 	 </a>
+	</div>
+	</div>
 
-		<hr>
-
-		<div id = "social">
-		<a href = "http://twitter.com"> twitter</a>
-		<a href = "http://twitter.com"> insta</a>
-		<div id="target"></div>
+		
 	</div>
 
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
