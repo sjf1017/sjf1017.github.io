@@ -358,6 +358,9 @@ footer{
 	#innernav {
 		display: none;
 	}
+	small-nav a{
+		display:none;
+	}
 }
 @media(max-width: 880px){
 	#large-nav {

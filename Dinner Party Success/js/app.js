@@ -5,6 +5,7 @@ $(document).ready(function () {
 
 		if (width>='880px'){
 			$('#small-nav').hide()
+	
 		}
 		
 	})
